@@ -25,4 +25,4 @@ With user auth:
 
 More Documentation refer to http://developers.face.com/.
 
-Author: Roc Yu (rociiu.yu@gmail.com)
+Author: Roc Yu (rociiu.yu@gmail.com), Haris Amin (aminharis7@gmail.com)

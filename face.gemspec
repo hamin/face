@@ -3,13 +3,13 @@ $:.push File.expand_path("../lib", __FILE__)
 require "face/version"
 
 Gem::Specification.new do |s|
-  s.name        = "face"
+  s.name        = "macruby-face"
   s.version     = Face::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Roc Yu"]
-  s.email       = ["rociiu.yu@gmail.com"]
+  s.authors     = ["Roc Yu", "Haris Amin"]
+  s.email       = ["rociiu.yu@gmail.com", "aminharis7@gmail.com"]
   s.homepage    = "http://rubygems.org/gems/face"
-  s.summary     = %q{Ruby wraper of face.com api}
+  s.summary     = %q{Ruby wraper of face.com api (MacRuby compliant)}
   s.description = %q{}
 
   s.rubyforge_project = "face"
@@ -20,6 +20,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   
   s.add_dependency "rest-client", ">=1.6.1"
-  s.add_dependency "json", ">=1.4.6"
 
 end
